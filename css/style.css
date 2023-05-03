@@ -158,24 +158,24 @@ a:active {
   font-size: 2rem;
   font-weight: bold;
 }
-.sidebar .social-links {
+.sidebar .social- {
   list-style: none;
   padding: 0;
   font-size: 14px;
   text-align: center;
 }
-.sidebar .social-links i {
+.sidebar .social- i {
   margin-right: 3px;
 }
-.sidebar .social-links li {
+.sidebar .social- li {
   display: inline;
   padding: 0 4px;
   line-height: 0;
 }
-.sidebar .social-links a {
+.sidebar .social- a {
   color: #565654;
 }
-.sidebar .social-links a:hover {
+.sidebar .social- a:hover {
   color: #4786d6;
 }
 .sidebar-top {
@@ -466,14 +466,14 @@ a:active {
 .about h3 {
   font-size: 22px;
 }
-/* links */
-.links {
+/*  */
+. {
   margin: 30px;
 }
-.links h3 {
+. h3 {
   font-size: 22px;
 }
-.links a {
+. a {
   cursor: pointer;
 }
 /* Comment style */
