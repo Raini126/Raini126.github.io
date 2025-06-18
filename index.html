@@ -372,17 +372,18 @@ if __name__ == &quot;__main__&quot;:
 模型训练
 <details>
 <summary>Prediction.py</summary>
-    import pandas as pd
-    import numpy as np
-    import joblib
-    import matplotlib.pyplot as plt
-    from sklearn.preprocessing import MinMaxScaler
-    from model import add_time_features, add_rolling_features
-    from ta.momentum import RSIIndicator
-    from ta.trend import MACD
-    from ta.volatility import BollingerBands
+    
+<pre><code>import pandas as pd
+import numpy as np
+import joblib
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
+from model import add_time_features, add_rolling_features
+from ta.momentum import RSIIndicator
+from ta.trend import MACD
+from ta.volatility import BollingerBands
 
-<pre><code>DATA_PATH = &quot;btc_processed.pkl&quot;
+DATA_PATH = &quot;btc_processed.pkl&quot;
 MODEL_PATH = &quot;xgb_model.pkl&quot;
 FEATURES_PATH = &quot;feature_list.pkl&quot;
 SCALER_PATH = &quot;btc_scaler.pkl&quot;  # Optional if you saved it separately
