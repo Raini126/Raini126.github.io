@@ -169,15 +169,16 @@ if __name__ == &quot;__main__&quot;:
 数据预处理
 <details>
 <summary>Model.py</summary>
-    import pandas as pd
-    import numpy as np
-    import xgboost as xgb
-    from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-    import matplotlib.pyplot as plt
-    import joblib
-    import os
+    
+<pre><code>import pandas as pd
+import numpy as np
+import xgboost as xgb
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+import matplotlib.pyplot as plt
+import joblib
+import os
 
-<pre><code>DATA_PATH = &quot;btc_processed.pkl&quot;
+DATA_PATH = &quot;btc_processed.pkl&quot;
 MODEL_SAVE_PATH = &quot;xgb_model.pkl&quot;
 
 # Helper to add temporal features
